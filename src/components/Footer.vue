@@ -1,5 +1,5 @@
 <template>
-  <footer class="lg:w-auto px-72 py-20 xl:px-72 xs:px-8 xxs:px-8">
+  <footer class="lg:w-full px-72 py-20 xl:px-72 xs:px-8 xxs:px-8 bottom-0 realtive left-0">
     <div>
       <p class="text-white text-2xl">afonja.adenikeo@gmail.com</p>
     </div>

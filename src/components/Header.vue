@@ -8,7 +8,7 @@
           <div>
             <!-- Website Logo -->
             <a href="#" class="flex items-center py-4 px-2">
-              <span class="text-black text-xs font-semibold">deni.design</span>
+                <router-link to="/" class="text-black text-xs font-semibold border-b-2 border-red-600">deni.design</router-link>
             </a>
           </div>
         </div>
@@ -24,7 +24,9 @@
             >Resume</a
           >
           <a href="" class="py-4 px-6 text-black text-xs font-semibold"
-            >Contact</a
+            >
+            Contact
+            </a
           >
           <a href="" class="py-4 text-black text-xs font-semibold">
             <unicon name="moon" fill="black" class="mr-2"></unicon>
