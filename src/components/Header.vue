@@ -1,6 +1,8 @@
+<!-- @format -->
+
 <template>
-  <nav class="bg-white">
-    <div class="max-w-7xl mx-auto px-4">
+  <nav class="w-full">
+    <div class="max-w-6xl mx-auto px-4">
       <div class="flex justify-between">
         <div class="flex space-x-7">
           <div>
@@ -12,18 +14,24 @@
         </div>
         <!-- Primary Navbar items -->
         <div class="hidden md:flex items-center space-x-1">
-          <a href="" class="py-4 px-4 text-black text-xs font-semibold"
+          <a href="" class="py-4 px-6 text-black text-xs font-semibold"
             >Other Projects</a
           >
-          <a href="" class="py-4 px-4 text-black text-xs font-semibold"
+          <a href="" class="py-4 px-6 text-black text-xs font-semibold"
             >Speaking</a
           >
-          <a href="" class="py-4 px-4 text-black text-xs font-semibold"
+          <a href="" class="py-4 px-6 text-black text-xs font-semibold"
             >Resume</a
           >
-          <a href="" class="py-4 px-4 text-black text-xs font-semibold"
+          <a href="" class="py-4 px-6 text-black text-xs font-semibold"
             >Contact</a
           >
+          <a href="" class="py-4 text-black text-xs font-semibold">
+            <unicon name="moon" fill="black" class="mr-2"></unicon>
+          </a>
+          <a href="" class="py-4 text-black text-xs font-semibold">
+            <unicon name="sun" fill="black"></unicon>
+          </a>
         </div>
         <!-- Mobile menu button -->
         <div class="md:hidden flex items-center">
@@ -53,18 +61,24 @@
         <li><a href="" class="py-4 px-4 text-black">Speaking</a></li>
         <li><a href="" class="py-4 px-4 text-black">Resume</a></li>
         <li><a href="" class="py-4 px-4 text-black">Contact</a></li>
+        <li><a href="" class="py-4 text-black text-xs font-semibold">
+            <unicon name="moon" fill="black" class="mr-2"></unicon>
+          </a></li>
+          <li><a href="" class="py-4 text-black text-xs font-semibold">
+            <unicon name="sun" fill="black"></unicon>
+        </a></li>
       </ul>
     </div>
   </nav>
 </template>
-			<script>
+<script>
 export default {
   mounted() {
-    const btn = document.querySelector("button.mobile-menu-button");
-    const menu = document.querySelector(".mobile-menu");
+    const btn = document.querySelector('button.mobile-menu-button');
+    const menu = document.querySelector('.mobile-menu');
 
-    btn.addEventListener("click", () => {
-      menu.classList.toggle("hidden");
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
     });
   },
 };

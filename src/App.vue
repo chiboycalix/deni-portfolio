@@ -1,24 +1,25 @@
 <template>
-<Header />
-  <div class="container mx-auto py-4 max-w-7xl px-6">
-   <Home />
+<div class="w-full">
+  <Header />
+    <div class="max-w-6xl mx-auto py-4 px-6">
+       <router-view></router-view>
+    </div>
+  <Footer />
 </div>
- 
 </template>
 
 <script>
-import Header from '@/components/Header'
-import Home from '@/pages/Home.vue';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export default {
   name: 'App',
   components: {
-    Home,
-    Header
+    Header,
+    Footer
   }
 }
 </script>
 
-<style>
-
+<style scoped lang="scss">
 </style>
