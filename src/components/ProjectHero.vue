@@ -1,5 +1,5 @@
 <template>
-  <div :class="bgColor" class="flex justify-center py-4 w-full">
+  <div :class="bgColor" class="flex justify-center py-5 w-full">
     <img v-bind:src="heroBgImg" class="w-4/12"/>
   </div>
 </template>
