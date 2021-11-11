@@ -1,5 +1,12 @@
 <template>
-  <div class="lg:w-6/12 sm:w-9/12 mt-20 text-black">
+  <div class="
+  text-black
+    my-10 
+    xxxs:px-5
+    xxs:px-10
+    lg:px-20
+    xl:px-72 
+    ">
     <h1>Hello I am Deni 👋🏽</h1>
     <h1 class="my-3 product">Product Designer & UI developer</h1>
     <h1 class="font-bold">
@@ -9,9 +16,16 @@
   </div>
 
   <!-- projects cards section -->
-  <div class="w-full md:grid md:grid-cols-2 gap-8 sm:grid sm:grid-cols-1 xs:grid xs:grid-cols-1 my-20">
+  <div class="
+      xxxs:px-5
+      xxs:px-10 
+      sm:grid sm:grid-cols-1 sm:px-10 sm:gap-6
+      md:grid-cols-2
+      lg:px-20
+      xl:px-72
+      ">
     <div v-for="project in projects" :key="project.id">
-      <Project :src="project.imgSrc" :link="project.link"/>
+      <Project :src="project.imgSrc" :link="project.link" />
     </div>
   </div>
 </template>

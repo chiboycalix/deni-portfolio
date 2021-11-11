@@ -2,12 +2,20 @@
 
 <template>
   <nav class="w-full">
-    <div class="max-w-6xl mx-auto px-4">
-      <div class="flex justify-between">
+    <div class="
+      xl:px-72 
+      lg:px-20
+      md:px-10 
+      sm:px-10 
+      xs:px-10 
+      xxs:px-10
+      xxxs: px-5"
+    >
+      <div class="flex justify-between align-center">
         <div class="flex space-x-7">
           <div>
             <!-- Website Logo -->
-            <a href="#" class="flex items-center py-4 px-2">
+            <a href="#" class="flex items-center py-5 px-2">
                 <router-link to="/" class="text-black text-xs font-semibold border-b-2 border-red-600">deni.design</router-link>
             </a>
           </div>

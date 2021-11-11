@@ -1,7 +1,7 @@
 <template>
 <div class="w-full">
   <Header />
-    <div class="max-w-6xl mx-auto py-4 px-6">
+    <div class="">
        <router-view></router-view>
     </div>
   <Footer />

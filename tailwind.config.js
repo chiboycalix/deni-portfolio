@@ -7,7 +7,10 @@ module.exports = {
   darkMode: false,
   theme: {
     screens: {
-      xxs: '375px',
+      xxxs: '375px',
+      // => @media (min-width: 375px) { ... }
+
+      xxs: '414px',
       // => @media (min-width: 414px) { ... }
 
       xs: '540px',
@@ -44,6 +47,16 @@ module.exports = {
         agentProductivity: '#E2EEF7',
         esquity: '#F7E9E5',
       },
+      projectGoalBgColors: {
+        lugah: '#5E3200',
+      },
+    },
+    minHeight: {
+      0: '0',
+      '1/4': '25%',
+      '1/2': '50%',
+      '3/4': '75%',
+      full: '100%',
     },
   },
   variants: {

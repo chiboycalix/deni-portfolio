@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between gap-8">
+  <div class="flex justify-between gap-8 px-72 py-20">
     <div class="w-6/12">
       <h1>THE WHY</h1>
       <h1>Background</h1>
